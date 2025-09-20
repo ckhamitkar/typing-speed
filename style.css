@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: #333;
+    color: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #444;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+h1 {
+    color: #ffc107;
+    margin-bottom: 1.5rem;
+}
+
+#text-to-type-container {
+    background-color: #555;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    height: 150px;
+    overflow-y: auto;
+    text-align: left;
+}
+
+#text-to-type {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #ddd;
+}
+
+.correct {
+    color: #4caf50;
+}
+
+.incorrect {
+    color: #f44336;
+    text-decoration: underline;
+}
+
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 2px solid #666;
+    background-color: #555;
+    color: #f4f4f4;
+    resize: none;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #ffc107;
+}
+
+.results {
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5rem 0;
+}
+
+.stat {
+    background-color: #555;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.stat p {
+    margin: 0 0 0.5rem 0;
+    color: #ffc107;
+}
+
+.stat span {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#restart-btn {
+    background-color: #ffc107;
+    color: #333;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#restart-btn:hover {
+    background-color: #ffca2c;
+}
